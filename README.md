@@ -62,6 +62,7 @@ GET http://localhost:3000/health -> { status: "ok", message: "Memoria is healthy
 
 ## Project Structure
 
+```text
 src/
 |---- index.ts # Entry Point
 |---- config.ts # Env validation (Zod)
@@ -69,6 +70,7 @@ src/
 |---- bot/ # Telegram handlers
 |---- services/ # Business Logics
 |---- db/ #Prisma client
+```
 
 ### Phases
 
@@ -83,3 +85,5 @@ This project covers 11 disciplines across 5 phases:
 - **Phase 3** - Distributed Systems, Realtime, Observability
 - **Phase 4** - Memory Systems, Systems Programming,Infrastructure
 - **Phase 5** - AI Engineering
+
+## commit
