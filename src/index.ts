@@ -1,5 +1,6 @@
 import Fastisfy from "fastify";
 import { config } from "./config.js";
+import bot from "./bot/index.js"; // Import the Telegram bot instance to ensure it starts when the server starts
 const app = Fastisfy({
   logger: true, // Enable logging for better debugging and monitoring
 });
