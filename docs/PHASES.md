@@ -17,14 +17,14 @@ persistent task storage. No AI. No queue. Just solid plumbing.
 
 - [x] Fastify HTTP server with `/health` endpoint
 - [x] Environment config validated with Zod at startup
-- [ ] Telegram bot responds to commands via Grammy
-- [ ] `/add <task>` — saves a task to the database
-- [ ] `/list` — returns all active tasks
-- [ ] `/done <number>` — marks a task as complete
-- [ ] `/help` — lists available commands
-- [ ] PostgreSQL database via Supabase + Prisma ORM
-- [ ] User identity resolved from Telegram `chat_id`
-- [ ] Docker Compose for local Postgres + Redis
+- [x] Telegram bot responds to commands via Grammy
+- [x] `/add <task>` — saves a task to the database
+- [x] `/list` — returns all active tasks
+- [x] `/done <number>` — marks a task as complete
+- [x] `/help` — lists available commands
+- [x] PostgreSQL database via Supabase + Prisma ORM
+- [x] User identity resolved from Telegram `chat_id`
+- [x] Docker Compose for local Postgres + Redis
 
 ### Out of Scope
 
@@ -35,12 +35,12 @@ persistent task storage. No AI. No queue. Just solid plumbing.
 
 ### Done Condition
 
-- [ ] Sending `/add finish the README` in Telegram
+- [x] Sending `/add finish the README` in Telegram
       creates a row in the database
-- [ ] Sending `/list` returns that task
-- [ ] Sending `/done 1` marks it complete
-- [ ] `npm run lint` passes with zero TypeScript errors
-- [ ] `docker-compose up` starts the full local environment
+- [x] Sending `/list` returns that task
+- [x] Sending `/done 1` marks it complete
+- [x] `npm run lint` passes with zero TypeScript errors
+- [x] `docker-compose up` starts the full local environment
 
 ---
 
